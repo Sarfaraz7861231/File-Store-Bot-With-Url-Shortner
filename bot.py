@@ -41,11 +41,11 @@ from handlers.save_media import (
 MediaList = {}
 
 Bot = Client(
-    name=Config.BOT_USERNAME,
+    name=Config.USA_Store_BOT,
     in_memory=True,
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH
+    bot_token=Config.7241072993:AAGovFcsTqfTes8NnleSGSm3h9GqSoNDqBM,
+    api_id=Config.21994708,
+    api_hash=Config.f4a3bd4f38bacd68241866a459c98e30
 )
 
 
@@ -60,7 +60,7 @@ async def start(bot: Client, cmd: Message):
     if cmd.from_user.id in Config.BANNED_USERS:
         await cmd.reply_text("Sorry, You are banned.")
         return
-    if Config.UPDATES_CHANNEL is not None:
+    if Config.https://t.me/+Zo2XhdxsCgpjMzc0 is not None:
         back = await handle_force_sub(bot, cmd)
         if back == 400:
             return

@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "21994708"))
+  API_HASH = os.environ.get("API_HASH", "f4a3bd4f38bacd68241866a459c98e30")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7241072993:AAGovFcsTqfTes8NnleSGSm3h9GqSoNDqBM")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "USA_Store_BOT")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "2242848172"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "http://Modijiurl.com")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "38879ed8def47021329cc25e6594288a7d0c6495")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "7096845102"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sarfaztro:a0Bc95DgXRctIZ9W@cluster0.v0gkffl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/+h76NSFWbPsY1OGFk")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "https://t.me/+KMnzHLidB184YWU0"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -23,7 +23,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 My Name: [FileStore Bot](https://t.me/@Seller_TOPX})
 │
 ├🔸 Language: [Python 3](https://www.python.org)
 │
